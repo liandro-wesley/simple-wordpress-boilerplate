@@ -1,0 +1,55 @@
+/*------------------------------------*\
+  IMPORTING THE ARCHIVES INTO THE MAIN FILE
+
+  * DISCLAIMER *
+  The import order is that, try not to modify ;)
+
+\*------------------------------------*/
+
+/* 
+ *  HELPERS 
+*/
+@import 'helpers/variables';
+@import 'helpers/functions';
+@import 'helpers/variables';
+@import 'helpers/mixins';
+@import 'helpers/placeholders';
+
+/* 
+ *  VENDORS
+*/
+@import 'vendors/dependecy';
+@import 'vendors-extensions/dependecy';
+
+/* 
+ *  BASE
+*/
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/animations';
+
+/* 
+ *  LAYOUT
+*/
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/sidebar';
+@import 'layout/forms';
+
+/* 
+ *  COMPONENTS
+*/
+@import 'components/buttons';
+@import 'components/cards';
+
+/* 
+ *  PAGES
+*/
+@import 'pages/home';
+@import 'pages/contact';
+
+/* 
+ *  THEMES
+*/
+@import 'themes/user-theme';
